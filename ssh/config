@@ -1,0 +1,12 @@
+Host github.com 
+	User git 
+	IdentityFile ~/.ssh/id_rsa
+	IdentitiesOnly yes
+
+Host access
+	HostName access1.cs.clemson.edu
+	User zhizhop
+
+Host lab
+	HostName koala21.cs.clemson.edu
+	User zhizhop
